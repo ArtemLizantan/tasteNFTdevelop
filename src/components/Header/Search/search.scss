@@ -1,0 +1,24 @@
+.header__form {
+  input {
+    border-radius: 12px;
+    background: none;
+    outline: none;
+    border: none;
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 12px;
+    }
+  }
+}
+.input__wrapper {
+  border-radius: 12px;
+  background: #1d2228;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 12px;
+  &::before{
+    color: #fff;
+    font-size: 20px;
+  }
+}
