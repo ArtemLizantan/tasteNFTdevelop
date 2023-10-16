@@ -1,0 +1,4 @@
+{
+  "firstDropdownOptions": ["Recently added", "New", "Oldest"],
+  "secondDropdownOptions": ["Auctions", "Shop", "By"]
+}

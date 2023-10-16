@@ -1,0 +1,36 @@
+.hero-slider {
+  margin: 4px 0 0 0;
+  max-width: 519px;
+  height: 548px;
+
+  &__wrapper {
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 786px;
+  }
+
+  &__img {
+    width: 524px;
+    height: 524px;
+  }
+
+  .swiper-slide {
+    width: 524px !important;
+    height: 524px !important;
+    left: -34px !important;
+    bottom: 7px !important;
+    transform: 0deg !important;
+  }
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+  left: -56px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 95px !important;
+  height: 5px !important;
+  border-radius: 99px !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+}

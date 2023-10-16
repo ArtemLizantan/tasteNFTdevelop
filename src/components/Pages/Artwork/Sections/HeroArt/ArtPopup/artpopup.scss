@@ -1,0 +1,108 @@
+.artpopup {
+  border-radius: 32px;
+  background: #30363d;
+  box-shadow: 0px 25px 40px 0px rgba(0, 0, 0, 0.05);
+  max-width: 653px;
+  padding: 45px 24px 32px 24px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  &__close {
+    position: absolute;
+    top: 51px;
+    right: 24px;
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+    &::before {
+      color: #fff;
+      font-size: 16px;
+    }
+  }
+  &__body {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative;
+  }
+  &__title {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__form-wrapper-title {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  &__form-info {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  &__form-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  &__form-input-wrapper {
+    border-radius: 8px;
+    background: #1d2228;
+    padding: 10px 16px;
+    min-width: 176px;
+    input {
+      background-color: unset;
+      border: none;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      max-width: 100px;
+      &::placeholder {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 600;
+      }
+      &:focus-visible {
+        background-color: unset;
+        border: none;
+      }
+    }
+    span {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  &__form-price {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  &__form-btn {
+    border-radius: 12px;
+    background: linear-gradient(270deg, #8743ff 0%, #4136f1 100%);
+    box-shadow: 0px 15px 30px 0px rgba(20, 102, 204, 0.16);
+    padding: 12px;
+    max-width: 157px;
+    width: 100%;
+    margin: 0 auto;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+  }
+}

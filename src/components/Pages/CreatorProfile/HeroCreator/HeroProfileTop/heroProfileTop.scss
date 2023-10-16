@@ -1,0 +1,77 @@
+.hero-profile-top {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  &__desc {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    max-width: 1061px;
+    span {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  &__left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  &__wrapper-top {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  &__right {
+    margin-top: 4px;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    span {
+      &:nth-child(1) {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 18px;
+      }
+      &:nth-child(2) {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+      }
+    }
+  }
+}
+
+.profile-icons {
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    &::before {
+      font-size: 20px;
+    }
+  }
+}

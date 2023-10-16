@@ -1,0 +1,22 @@
+.creator-cards {
+  margin-bottom: 51px;
+  &__sort {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-bottom: 24px;
+  }
+  &__button {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    background-color: unset;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0;
+    &._active {
+      color: #fff;
+    }
+  }
+}

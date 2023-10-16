@@ -1,0 +1,14 @@
+.activity-info {
+  &__left {
+    margin-top: 66px;
+  }
+  &__copy {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    span {
+      color: rgba(255, 255, 255, 0.5);
+    }
+  }
+}
