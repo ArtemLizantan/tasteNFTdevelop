@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tasteNFTdevelop/static/css/main.3d527599.css",
+    "main.js": "/tasteNFTdevelop/static/js/main.c59ff084.js",
+    "static/media/6.png": "/tasteNFTdevelop/static/media/6.32322af09d71c4448bae.png",
+    "static/media/5.png": "/tasteNFTdevelop/static/media/5.d723bd8387906c0641e9.png",
+    "static/media/3.png": "/tasteNFTdevelop/static/media/3.1e5ad874272107db8119.png",
+    "static/media/7.png": "/tasteNFTdevelop/static/media/7.b78fd7ba97f1f312b825.png",
+    "static/media/1.png": "/tasteNFTdevelop/static/media/1.619de69d69b62c159195.png",
+    "static/media/2.png": "/tasteNFTdevelop/static/media/2.2c8194708dd2f5fc77b3.png",
+    "static/media/8.png": "/tasteNFTdevelop/static/media/8.1f9b98efd5d5c69bfe08.png",
+    "static/media/4.png": "/tasteNFTdevelop/static/media/4.f0e71b125faf69ec9d5e.png",
+    "static/media/artowork.jpg": "/tasteNFTdevelop/static/media/artowork.22394085e1b1f5b4606c.jpg",
+    "static/media/activity-avatar.svg": "/tasteNFTdevelop/static/media/activity-avatar.9a41cacb2b2818a8ade2026eb266bcd8.svg",
+    "static/media/slide1.jpg": "/tasteNFTdevelop/static/media/slide1.f6d7822fbc8b0a2fe649.jpg",
+    "static/media/slide2.jpg": "/tasteNFTdevelop/static/media/slide2.0288d4380129714324af.jpg",
+    "static/media/user-avatar.svg": "/tasteNFTdevelop/static/media/user-avatar.021711fce2b669d5c09aebda16da51e1.svg",
+    "static/media/icomoon.svg?ca3dqd": "/tasteNFTdevelop/static/media/icomoon.ccd91738feb7f6075980.svg",
+    "static/media/slide4.jpg": "/tasteNFTdevelop/static/media/slide4.a92fa95698794b657b93.jpg",
+    "static/media/logo.svg": "/tasteNFTdevelop/static/media/logo.880aaa60bf59a70c6498fd8cd7a61b78.svg",
+    "static/media/hero-icon.svg": "/tasteNFTdevelop/static/media/hero-icon.a70cf8b75a8e6027ed4ca48313882259.svg",
+    "static/media/icomoon.eot?ca3dqd": "/tasteNFTdevelop/static/media/icomoon.cde74ac7e94de45c9656.eot",
+    "static/media/icomoon.woff?ca3dqd": "/tasteNFTdevelop/static/media/icomoon.2ace6408fb4087978809.woff",
+    "static/media/icomoon.ttf?ca3dqd": "/tasteNFTdevelop/static/media/icomoon.80dc5e889a3f44a5dfaa.ttf",
+    "index.html": "/tasteNFTdevelop/index.html",
+    "main.3d527599.css.map": "/tasteNFTdevelop/static/css/main.3d527599.css.map",
+    "main.c59ff084.js.map": "/tasteNFTdevelop/static/js/main.c59ff084.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d527599.css",
+    "static/js/main.c59ff084.js"
+  ]
+}
