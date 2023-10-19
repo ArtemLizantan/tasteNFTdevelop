@@ -17,9 +17,6 @@
     flex: 1 1 auto;
     padding: 0px 16px 0px 25px;
   }
-}
-
-.header {
   &__button {
     border-radius: 12px;
     background: linear-gradient(270deg, #8743ff 0%, #4136f1 100%);
@@ -31,5 +28,44 @@
     border: none;
     transition: all 0.5s;
   }
+  &__profile {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
 }
 
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  &__left {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  &__arrow {
+    &::before {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 12px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    span {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}

@@ -2,8 +2,8 @@
   margin-bottom: 80px;
   &__wrapper {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
     gap: 16px;
+    align-items: baseline;
   }
 }

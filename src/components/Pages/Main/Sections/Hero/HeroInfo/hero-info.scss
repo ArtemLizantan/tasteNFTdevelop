@@ -62,6 +62,8 @@
     color: #fff;
     font-size: 18px;
     font-weight: 700;
+    max-width: 150px;
+    word-wrap: break-word;
   }
 
   // .hero-top__right-link
@@ -73,6 +75,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    max-width: 150px;
+    word-wrap: break-word;
   }
 }
 .hero-bottom {

@@ -4,7 +4,7 @@ const MainButton = (props) => {
   const main = props.main ? "main" : "primary";
 
   return (
-    <button className={`main-button ${main}`} onClick={props.onClick}>
+    <button className={`main-button ${main}`} onClick={props.onClick} style={{ alignSelf: props.alignSelf }}>
       {props.name}
     </button>
   );

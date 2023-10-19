@@ -4,12 +4,11 @@
   display: inline-block;
   max-width: 245px;
   width: 100%;
-  &:not(:last-child){
+  &:not(:last-child) {
     margin-right: 16px;
   }
   &__top {
     img {
-      
     }
   }
   &__body {
@@ -19,14 +18,16 @@
   &__top {
     margin: 0 auto;
     padding-bottom: 3px;
-
   }
   &__name {
     color: #fff;
     font-size: 20px;
     font-weight: 700;
     text-align: center;
+    max-width: 106px;
+    margin: 0 auto;
     margin-bottom: 8px;
+    white-space: break-spaces;
   }
   &__username {
     font-size: 16px;
@@ -37,6 +38,9 @@
     -webkit-text-fill-color: transparent;
     display: block;
     text-align: center;
+    white-space: break-spaces;
+    max-width: 89px;
+    margin: 0 auto;
     margin-bottom: 8px;
   }
   &__bottom span {
@@ -45,5 +49,8 @@
     font-weight: 600;
     text-align: center;
     display: block;
+    white-space: break-spaces;
+    max-width: 120px;
+    margin: 0 auto;
   }
 }

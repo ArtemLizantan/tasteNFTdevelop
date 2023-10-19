@@ -38,7 +38,7 @@ const HeroArt = (props) => {
           </div>
         </div>
       </div>
-      {open && <ArtPopup title="Place a bid" button="Place" info="TASTE" onClick={() => setOpen(false)}/>}
+       <ArtPopup title="Place a bid" button="Place" info="TASTE" open={open} onClose={() => setOpen(false)}/>
     </section>
   );
 };

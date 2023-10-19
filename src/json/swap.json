@@ -1,0 +1,22 @@
+{
+  "firstSwap": [
+    {
+      "name": "Withdraw",
+      "value": "withdraw"
+    }
+  ],
+  "secondSwap": [
+    {
+      "name": "Swap to TASTE",
+      "value": "swap_to_taste"
+    },
+    {
+      "name": "Deposit",
+      "value": "deposit"
+    },
+    {
+      "name": "Withdraw",
+      "value": "withdraw"
+    }
+  ]
+}

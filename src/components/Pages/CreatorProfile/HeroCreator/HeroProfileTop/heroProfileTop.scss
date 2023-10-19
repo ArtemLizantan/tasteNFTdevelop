@@ -66,12 +66,27 @@
     display: flex;
     align-items: center;
     gap: 6px;
-    font-weight: 400;
-    color: #fff;
-    font-size: 14px;
-    line-height: 18px;
+    &:hover{
+      a{
+        color: rgb(228, 17, 17);
+      }
+      &::before{
+        color: rgb(228, 17, 17);
+      }
+    }
     &::before {
       font-size: 20px;
+      font-weight: 400;
+      color: #fff;
+      line-height: 18px;
+      transition: all 0.4s;
+    }
+    a {
+      font-weight: 400;
+      color: #fff;
+      font-size: 14px;
+      line-height: 18px;
+      transition: all 0.4s;
     }
   }
 }

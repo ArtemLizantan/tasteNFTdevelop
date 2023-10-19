@@ -9,8 +9,11 @@
   border: none;
   transition: all 0.5s;
   cursor: pointer;
-  &.primary{
+  &.primary {
     padding: 12px 31px;
     font-size: 14px;
+  }
+  &:hover {
+  transform: translateY(3px);
   }
 }
